@@ -1,7 +1,7 @@
 import { Flex, Button, Stack } from '@chakra-ui/react'
 import { Input } from '../components/Form/Input'
 
-export default function Home() {
+export default function Signin() {
   return (
     <Flex
       width={"100vw"}
@@ -20,7 +20,7 @@ export default function Home() {
       >
         <Stack spacing="4">
           <Input name="email" type="email" label="Email" />
-          <Input name="password" type="password" label="Password" />
+          <Input name="password" type="password" label="Senha" />
         </Stack>
 
         <Button size="lg" type="submit" mt="6" colorScheme="pink">
