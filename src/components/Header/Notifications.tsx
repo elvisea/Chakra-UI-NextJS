@@ -1,8 +1,7 @@
 import { HStack, Icon } from '@chakra-ui/react'
-import React from 'react'
 import { RiNotificationLine, RiUserAddLine } from 'react-icons/ri'
 
-export default function Notifications() {
+export function Notifications() {
   return (
     <HStack
       spacing={["6", "8"]}

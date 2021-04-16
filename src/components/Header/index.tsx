@@ -1,15 +1,13 @@
-import React from 'react'
 import { Flex, Icon, IconButton, useBreakpointValue } from '@chakra-ui/react'
-
-import Profile from './Profile'
-import Notifications from './Notifications'
-import SearchBox from './SearchBox'
-import Logo from './Logo'
-import { useSidebarDrawer } from '../../contexts/SidebarDrawerContext'
 import { RiMenuLine } from 'react-icons/ri'
 
-export default function Header() {
+import { Logo } from './Logo'
+import { Profile } from './Profile'
+import { SearchBox } from './SearchBox'
+import { Notifications } from './Notifications'
+import { useSidebarDrawer } from '../../contexts/SidebarDrawerContext'
 
+export function Header() {
   const { onOpen } = useSidebarDrawer()
   const isWideVersion = useBreakpointValue({
     base: false,
