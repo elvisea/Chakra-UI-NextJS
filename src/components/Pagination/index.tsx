@@ -1,6 +1,6 @@
-import { Box, Button, Stack } from '@chakra-ui/react'
-import React from 'react'
-import PaginationItem from './PaginationItem'
+import { Box, Button, Stack } from "@chakra-ui/react"
+import React from "react"
+import PaginationItem from "./PaginationItem"
 
 export default function Pagination() {
   return (

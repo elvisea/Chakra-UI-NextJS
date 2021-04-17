@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import {
   Text,
   Box,
@@ -13,12 +13,12 @@ import {
   Checkbox,
   Tbody,
   Td
-} from '@chakra-ui/react'
+} from "@chakra-ui/react"
 
-import { Header } from '../../components/Header'
-import { Sidebar } from '../../components/Sidebar'
-import { RiAddLine, RiPencilLine } from 'react-icons/ri'
-import Pagination from '../../components/Pagination'
+import { Header } from "../../components/Header"
+import { Sidebar } from "../../components/Sidebar"
+import { RiAddLine, RiPencilLine } from "react-icons/ri"
+import Pagination from "../../components/Pagination"
 
 export default function UserList() {
   return (

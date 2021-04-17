@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Avatar } from '@chakra-ui/react'
+import { Box, Flex, Text, Avatar } from "@chakra-ui/react"
 
 interface ProfileProps {
   showProfileData?: boolean;
