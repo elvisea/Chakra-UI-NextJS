@@ -23,7 +23,7 @@ export default function CreateUser() {
       <Flex w="100%" my="6" maxW="1480" mx="auto" px="6">
         <Sidebar />
 
-        <Box flex="1" borderRadius={8} bg="gray.800" p="8">
+        <Box flex="1" borderRadius="8" bg="gray.800" p="8">
           <Heading size="lg" fontWeight="normal">Criar Usuário</Heading>
 
           <Divider my="6" borderColor="gray.700" />
